@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int  i,n;
+    for (i=0;;i++)
+    {
+        printf("enter the number:");
+        scanf("%d",&n);
+        if(n==10){
+            printf("process stopped!!!");
+            break;
+        } else{
+            continue;
+        }
+    }
+}
